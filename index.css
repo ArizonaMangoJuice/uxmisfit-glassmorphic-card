@@ -79,13 +79,16 @@ body{
     }
     25%{
         background-color: rgba(121,15,213, .4);
+        border: .1vh solid rgba(121,15,213, .1);
     }
     50%{
-        background-color: rgba(252,72,57), .4;
+        background-color: rgba(252,72,57, .4);
+        border: .1vh solid rgba(252,72,57, .1);
     }
     100%{
         transform: translateY(15px);
         background-color: rgba(219,79,131, .4);
+        border: .1vh solid rgba(219,79,131, .1);
     }
 }
 
