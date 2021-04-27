@@ -67,6 +67,16 @@ body{
     right: 23vh;
     height: 32vh;
     width: 55vh;
+    animation: float 5s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite alternate;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
 }
 
 .card-holder{
